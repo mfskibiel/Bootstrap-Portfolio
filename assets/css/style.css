@@ -1,9 +1,9 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/background.jpg");
 }
 
 * {
@@ -30,12 +30,16 @@ p:last-child {
   margin-bottom: 0;
 }
 
+p {
+  padding: 10px;
+}
+
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Acme', sans-serif;
   font-weight: 700;
-  color: #737cad;
+  color: rgb(214, 134, 43);
 }
 
 h1 {
@@ -43,6 +47,7 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #dddddd;
+  font-family: 'Acme', sans-serif;
 }
 
 h2,
@@ -59,7 +64,7 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
+  background:  #737cad;
   border-bottom: 2px solid #cccccc;
 }
 
@@ -67,14 +72,14 @@ h3 {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
+  font-family: 'Acme', sans-serif;
+  font-size: 28px;
   font-weight: 700;
   line-height: 90px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #737cad;
+  background:rgb(214, 134, 43);
 }
 
 nav {
@@ -85,9 +90,10 @@ nav {
 nav a {
   display: inline-block;
   padding-left: 15px;
+  font-family: 'Acme', sans-serif;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: rgb(214, 134, 43);
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
@@ -149,11 +155,18 @@ h3, h2 {
 }
 
 .work img {
-  width: 50%;
+  width: 75%;
   border: 0 none;
   opacity: 0.8;
 }
+h3 a {
+  text-decoration: none;
+  color: white;
+}
 
+h3 a:hover {
+  color: rgb(214, 134, 43);
+}
 
 .work h3 {
   position: absolute;
@@ -215,4 +228,9 @@ input[type=submit] {
   cursor: pointer;
   background: #737cad;
   border: 0 none;
+}
+
+.img-fluid {
+  float: left;
+  padding-right: 15px;
 }
