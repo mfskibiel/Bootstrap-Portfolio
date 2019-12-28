@@ -3,6 +3,8 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
+  padding: 0;
+  margin: 0;
   background: url("../images/background.jpg");
 }
 
@@ -221,4 +223,27 @@ input[type="submit"] {
 .img-fluid {
   float: left;
   padding-right: 15px;
+}
+
+/*portfolio*/
+.card {
+  width: 15rem;
+  border: 2px solid gray;
+}
+
+.row {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.btn-info {
+  font-size: 12px;
+  padding: 10px;
+  background-color: #737cad;
+  border: 1px solid gray;
+}
+
+.card-body p {
+  line-height: 15px;
+  padding: 1px;
 }

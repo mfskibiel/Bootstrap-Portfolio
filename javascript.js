@@ -8,3 +8,7 @@ setInterval(function() {
     .end()
     .appendTo("#slideshow");
 }, 4000);
+
+$("#myModal").on("shown.bs.modal", function() {
+  $("#myInput").trigger("focus");
+});
